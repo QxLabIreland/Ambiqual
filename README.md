@@ -42,6 +42,10 @@ To validate Ambiqual, you can use the ambiqual_test.py script located in the val
 
 <img src="https://github.com/dspanah/Ambiqual/blob/main/validation/LA.png" alt="Alt text" width="1000" height="220">
 
+## Citation
+[![DOI](https://zenodo.org/badge/848741719.svg)](https://zenodo.org/doi/10.5281/zenodo.13388476)
+
+
 
 ## Licence
 
