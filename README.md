@@ -7,7 +7,9 @@ Narbutt M, Skoglund J, Allen A, Chinen M, Barry D, Hines A. AMBIQUAL: Towards a 
 ## Installation
 This package can be installed using pip:
 
-`pip install git+https://github.com/QxLabIreland/Ambiqual`
+`pip clone git+https://github.com/QxLabIreland/Ambiqual`
+'cd Ambiqual'
+'pip install -e .'
 
 ## Usage
 The program can be used using the command run tool:
