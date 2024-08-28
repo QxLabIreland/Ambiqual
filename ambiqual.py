@@ -162,22 +162,14 @@ if __name__ == '__main__':
     if ignore_freq_bands == None:
         ignore_freq_bands = 0
 
-    # intensity_threshold = -50
-    # elc = 1
-    # ignore_freq_bands = 0
-
-    # ref_path = Path("glock_fixed_A60_E60_HOA_REF.wav")
-    # deg_path = Path("glock_fixed_A60_E60_HOA_256k.wav")
-
-    nsim_values, LQ, LA_vert, LA_horiz = calculate_ambiqual(ref_path,
-                                                            deg_path,
-                                                            intensity_threshold,
-                                                            elc,
-                                                            ignore_freq_bands
-                                                            )
+    nsim_values, LQ, LA = calculate_ambiqual(ref_path,
+                                             deg_path,
+                                             intensity_threshold,
+                                             elc,
+                                             ignore_freq_bands
+                                            )
 
     # print("vnsim", nsim_values)
     print("")
     print("LQ: ", LQ)
-    print("LA_VERT: ", LA_vert)
-    print("LA_HORIZ: ", LA_horiz)
+    print("LA: ", LA)
