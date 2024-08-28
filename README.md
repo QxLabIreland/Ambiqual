@@ -8,9 +8,7 @@ Narbutt M, Skoglund J, Allen A, Chinen M, Barry D, Hines A. AMBIQUAL: Towards a 
 This package can be installed using pip:
 
 `pip clone git+https://github.com/QxLabIreland/Ambiqual`
-
 `cd Ambiqual`
-
 `pip install -e .`
 
 ## Usage
