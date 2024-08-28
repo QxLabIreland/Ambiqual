@@ -26,7 +26,7 @@ setup(
     description='A brief description of your project',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/dspanah/pyAmbiqual',
+    url='https://github.com/QxLabIreland/Ambiqual',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
