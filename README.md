@@ -12,7 +12,7 @@ This package can be installed using pip:
 `pip install -e .` <br />
 
 ## Usage
-The program can be used using the command run tool:
+The program can be used using the command line tool:
 
 `python -m ambiqual --ref /path/to/dir/reference_signal --deg /path/to/dir/degraded_sginal [--level threshold] [--elc elc] [--ignorefreqbands freq_band]`
 
