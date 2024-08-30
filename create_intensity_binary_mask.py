@@ -6,7 +6,6 @@ def create_intensity_binary_mask(gammatonegram, intensity_threshold):
     
     Args:
     gammatonegram (ndarray): The input gammatonegram.
-    intensity_threshold (int): The intensity level threshold.
     
     Returns:
     ndarray: The resulting intensity binary mask.
