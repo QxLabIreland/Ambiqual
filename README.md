@@ -44,8 +44,6 @@ To validate Ambiqual, you can use the ambiqual_test.py script located in the val
 
 If you use this code, please cite both the repository and the associated paper:
 
-[![DOI](https://zenodo.org/badge/848741719.svg)](https://zenodo.org/doi/10.5281/zenodo.13388476)
-
 Narbutt M, Skoglund J, Allen A, Chinen M, Barry D, Hines A. AMBIQUAL: Towards a Quality Metric for Headphone Rendered Compressed Ambisonic Spatial Audio. Applied Sciences. 2020; 10(9):3188. https://doi.org/10.3390/app10093188
 
 ## Licence
