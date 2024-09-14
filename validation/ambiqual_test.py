@@ -56,7 +56,7 @@ def plot_lq():
     LQ_values = ambiqual_df["LQ"].values
     LQ_array = LQ_values.reshape(6, 4).T
 
-    mushra_results_df = mushra_df.iloc[45:, :]
+    mushra_results_df = mushra_df.iloc[:30, :]
 
     mushra_results = mushra_results_df["mean"].values
     sample_results_by_encoding_LQ = mushra_results.reshape(6, 5).T
@@ -117,7 +117,7 @@ def plot_la():
     LA_array = LA_values.reshape(6, 4).T
 
     #local_quality_results = mushra_df.iloc[0:45, :]
-    results_df = mushra_df.iloc[45:, :]
+    results_df = mushra_df.iloc[30:, :]
 
     #quality_results = local_quality_results["mean"].values
     accuracy_results = results_df["mean"].values
