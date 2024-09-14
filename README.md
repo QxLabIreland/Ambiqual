@@ -36,6 +36,9 @@ The intensity binary map threshold is set to -180dB and equal loudness contours 
 
 To validate Ambiqual, you can use the ambiqual_test.py script located in the validation directory to run Ambiqual on a set of ambisonic audio files. The resulting listening quality and localisation accuracy are then plotted against subjective scores, similar to Figures 12 and 13 in the paper. Note that some audio files were excluded due to copyright, and as a result,  some figures may differ from those in the paper.
 
+<img src="https://github.com/dspanah/Ambiqual/blob/main/validation/LQ.png" alt="Alt text" width="500" height="230">
+
+<img src="https://github.com/dspanah/Ambiqual/blob/main/validation/LA.png" alt="Alt text" width="1000" height="190">
 
 
 ## Citation
