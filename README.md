@@ -38,7 +38,7 @@ To validate Ambiqual, you can use the ambiqual_test.py script located in the val
 
 <img src="https://github.com/QxLabIreland/Ambiqual/blob/main/validation/fig11.png" alt="Alt text" width="1000" height="230">
 
-<img src="https://github.com/QxLabIreland/Ambiqual/blob/main/validation/fig12.png" alt="Alt text" width="1000" height="460">
+<img src="https://github.com/QxLabIreland/Ambiqual/blob/main/validation/fig12.png" alt="Alt text" width="1000" height="430">
 
 
 ## Citation
