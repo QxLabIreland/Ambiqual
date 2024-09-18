@@ -41,7 +41,7 @@ To validate Ambiqual, we used ambiqual_test.py script located in the validation 
   <br>
   <em>Results of experiment 1 (Figure 11 of the paper)</em>
 </p>
-<br><br><br>
+<br><br>
 <p align="center">
   <img src="https://github.com/QxLabIreland/Ambiqual/blob/main/validation/fig12.png" alt="Alt text" width="1000" height="430">
   <br>
