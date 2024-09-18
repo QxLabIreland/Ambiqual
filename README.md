@@ -40,6 +40,10 @@ To validate Ambiqual, we used ambiqual_test.py script located in the validation 
   <img src="https://github.com/QxLabIreland/Ambiqual/blob/main/validation/fig11.png" alt="Alt text" width="1000" height="230">
   <br>
   <em>Results of experiment 1 (Figure 11)</em>
+
+<br>
+<br>
+  
 <img src="https://github.com/QxLabIreland/Ambiqual/blob/main/validation/fig12.png" alt="Alt text" width="1000" height="430">
 
 
