@@ -34,7 +34,7 @@ The intensity binary map threshold is set to -180dB and equal loudness contours 
 
 ## Validation
 
-To validate Ambiqual, we used ambiqual_test.py script located in the validation directory to run Ambiqual on a set of ambisonic audio files. The resulting listening quality and localisation accuracy are then plotted against subjective scores, similar to Figures 11 and 12 in the paper.
+To validate Ambiqual, we used ambiqual_test.py script located in the validation directory to run Ambiqual on a set of ambisonic audio files, as used in the paper's experiments. The resulting listening quality and localisation accuracy are then plotted against subjective scores, similar to Figures 11 and 12 in the paper. Note that due to a bug in the original Ambiqual Matlab code, the scatter plots in Figure 11 of the paper are incorrect and the correct ones are depicted below.
 
 <img src="https://github.com/QxLabIreland/Ambiqual/blob/main/validation/fig11.png" alt="Alt text" width="1000" height="230">
 
