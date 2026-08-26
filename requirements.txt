@@ -1,5 +1,5 @@
 matplotlib==3.7.2
-numpy==1.23.5
+numpy>=1.26,<2
 opencv_python==4.10.0.84
 scipy==1.14.0
 soundfile==0.12.1
