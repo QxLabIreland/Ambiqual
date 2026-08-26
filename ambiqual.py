@@ -74,8 +74,9 @@ def calculate_ambiqual(ref_path, deg_path, intensity_threshold, elc, ignore_freq
     psi = 0.135
     omega = 0.174
 
+    n_common_channels = min(n_channels_ref, n_channels_deg)
     for i in range(16):
-        if i >= n_channels:
+        if i >= n_common_channels:
             vnsim = np.nan
 
         else:
