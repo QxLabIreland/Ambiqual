@@ -35,6 +35,10 @@ def create_ref_patches(ref_sig_phaseogram, patch_size):
         map_x = xi.astype(np.float32)
         map_y = yi.astype(np.float32)
 
+        # OpenCV remap is documented for float32 source data; casting avoids
+        # version-dependent behavior with float64 while preserving intended NaN spread.
+        patch = patch.astype(np.float32, copy=False)
+
         # Perform interpolation
         patch_interp = cv2.remap(patch,
                                  map_x,
